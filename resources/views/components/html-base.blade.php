@@ -33,7 +33,9 @@
 </head>
 
 <body>
-    {{ $slot }}
+    <div class="container border">
+        <div class="my-3">{{ $slot }}</div>
+    </div>
 </body>
 
 </html>
