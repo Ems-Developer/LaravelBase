@@ -34,7 +34,7 @@
 
 <body>
     <div class="container border">
-        <div class="my-3">{{ $slot }}</div>
+        <div class="my-4">{{ $slot }}</div>
     </div>
 </body>
 
